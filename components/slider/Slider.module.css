@@ -1,0 +1,15 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.previousButton, .nextButton{
+    background-color: var(--main-color);
+    width: 52px;
+    cursor: pointer;
+}

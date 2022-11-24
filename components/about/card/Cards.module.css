@@ -1,0 +1,20 @@
+/* Styling for mobile devices */
+
+.cardsContainer {
+  height: 10vh;
+  position: relative;
+}
+
+.cardContainer {
+  height: 10rem;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  padding-left: 4rem;
+}
+
+.cardContent {
+  font-size: 1rem;
+  padding-left: 4rem;
+}

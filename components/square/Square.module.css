@@ -1,0 +1,9 @@
+.square{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: 2rem;
+    background-color: var(--main-color);
+    position: absolute;
+    z-index: 1;
+}

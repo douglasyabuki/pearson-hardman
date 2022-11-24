@@ -1,0 +1,58 @@
+/* Styling for mobile devices */
+
+.sectionContainer {
+    width: 100%;
+    height: 120vh;
+    /* alterar altura após implementar o slider */
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+    padding: 4rem 1rem 0 3rem;
+  }
+
+  .cardsContainerMobile {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .cardsContainerDesktop {
+    display: none;
+  }
+
+
+@media (min-width: 767.999px){
+  .title{
+    max-width: 80%;
+    padding: 5rem 0 1rem 5rem;
+  }
+}
+
+@media (min-width: 1199.999px) {
+  .title {
+    width: 50%;
+    padding: 5rem;
+  }
+
+  .cardsContainerDesktop {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .cardsContainerMobile{
+    display: none;
+  }
+
+
+}

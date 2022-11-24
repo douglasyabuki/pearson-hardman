@@ -1,0 +1,45 @@
+.servicesContainer{
+  margin: 0 auto;
+}
+
+.serviceCard {
+  width: 300px;
+  margin: 0 auto;
+  background-color: var(--tertiary-color);
+  margin-bottom: 3rem;
+}
+
+.serviceCardImage {
+  height: 40vh;
+  width: 100%;
+  position: relative;
+}
+
+.serviceCardInfo {
+  padding: 2rem;
+  height: 50vh;
+}
+
+.serviceCardTitle {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1199.999px) {
+
+  .servicesContainer{
+    display:flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin: 0 auto;
+  }
+
+  .serviceCard{
+    width: 350px;
+  }
+
+  .serviceCardInfo {
+    padding: 3rem;
+  }
+}

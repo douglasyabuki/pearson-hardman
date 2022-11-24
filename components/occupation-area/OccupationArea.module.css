@@ -1,0 +1,77 @@
+/* Styling for mobile devices */
+
+.occupationAreaContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.occupationAreaText{
+    align-self: center;
+    text-align: center;
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+.occupationAreaTitle{
+    padding-top: 1rem;
+    color: var(--main-color);
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+.occupationAreaInfo{
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+.imageContainer{
+    height: 45vh;
+    position: relative;
+}
+
+@media (min-width: 480.999px){
+    .occupationAreaContainer{
+        height: 110vh;
+    }
+
+    .occupationAreaText{
+        height: 55vh;
+    }
+
+    .imageContainer{
+        height: 55vh;
+    }
+}
+
+@media (min-width: 767.999px){
+    .occupationAreaContainer{
+        height: 120vh;
+    }
+
+    .imageContainer{
+        height: 75vh;
+    }
+}
+
+/* Styling for iPads & tablets */
+@media (min-width: 1023.999px) {
+    .occupationAreaContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .occupationAreaText{
+        align-self: center;
+        text-align: end;
+        width: 50%;
+        padding: 3rem;
+    }
+    
+    .imageContainer{
+        height: 100%;
+        width: 50%;
+    }
+}

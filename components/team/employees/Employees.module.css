@@ -1,0 +1,45 @@
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.cardContainer {
+  align-self: center;
+  width: 300px;
+  background-color: var(--tertiary-color);
+}
+
+.cardImageContainer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.cardName {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 0.5rem;
+}
+
+.cardRole {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 767.999px) {
+}
+
+@media (min-width: 1199.999px) {
+  .cardContainer {
+    width: 270px;
+  }
+
+  .cardImageContainer {
+    height: 300px;
+    width: 270px;
+  }
+}

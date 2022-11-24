@@ -1,0 +1,34 @@
+/* Styling for mobile devices */
+
+.sectionContainer{
+  height: 120vh;
+  margin-bottom: 3rem;
+}
+
+.servicesMobileContainer {
+  padding-top:3rem;
+  width: 100%;
+  height: 110vh;
+  margin: 0 auto;
+}
+
+.servicesDesktopContainer {
+  display: none;
+}
+
+@media (min-width: 1199.999px) {
+
+  .sectionContainer{
+    height: 120vh;
+  }
+  .servicesMobileContainer {
+    display: none;
+  }
+
+  .servicesDesktopContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 3rem;
+  }
+}

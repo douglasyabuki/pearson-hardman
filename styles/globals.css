@@ -1,26 +1,57 @@
-html,
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --main-color: #d92123;
+  --primary-text-color: #fff;
+  --secondary-text-color: #191919;
+  --tertiary-color: #eff3f4;
+}
+
+/*   
+  first-breakpoint: 320px;
+  second-breakpoint: 480px;
+  third-breakpoint: 768px;
+  fourth-breakpoint: 992px;
+  fifth-breakpoint: 1200px; */
+
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  opacity: 0.8;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  opacity: 1;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+button {
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+span:hover {
+  background-color: var(--main-color);
+}
+
+img {
+  width: 100%;
+}
+
+i {
+  position: absolute;
+  background-color: var(--main-color);
+  color: var(--primary-text-color);
+  z-index: 5;
+  font-size: 1.2rem;
+  padding: 1rem;
 }

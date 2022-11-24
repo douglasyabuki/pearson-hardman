@@ -1,0 +1,63 @@
+/* Styling for mobile devices */
+
+.bannersContainer {
+  max-width: 90%;
+  height: 70vh;
+  opacity: 1;
+  position: relative;
+}
+
+.banner {
+  max-width: 100%;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  opacity: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.bannerTitle {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.bannerContent {
+  font-size: 1.5rem;
+}
+
+.dots {
+  left: 3rem;
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 3rem;
+}
+
+@media (min-width: 767.999px) {
+  .bannersContainer {
+    max-width: 75%;
+  }
+
+  .bannerTitle {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1023.999px) {
+  .bannersContainer {
+    max-width: 50%;
+  }
+
+  .banner {
+    max-width: 100%;
+    padding: 4rem;
+  }
+
+  .bannerTitle {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+  }
+}

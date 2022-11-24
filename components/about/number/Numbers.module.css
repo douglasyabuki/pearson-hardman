@@ -1,0 +1,75 @@
+/* Styling for mobile devices */
+
+.numbersContainer {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numberContainer {
+  width: 150px;
+  height: 150px;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--main-color);
+  position: relative;
+}
+
+.numberTitle {
+  color: var(--primary-text-color);
+  font-size: 0.9rem;
+}
+
+.numberValue {
+  color: var(--primary-text-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.iconContainer {
+  position: relative;
+  width: 67px;
+}
+
+@media (min-width: 1023.999px) {
+  .numbersContainer {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .numberContainer {
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--main-color);
+    position: relative;
+  }
+
+  .numberTitle {
+    color: var(--primary-text-color);
+    font-size: 0.9rem;
+  }
+
+  .numberValue {
+    color: var(--primary-text-color);
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .iconContainer {
+    position: relative;
+    width: 67px;
+  }
+}

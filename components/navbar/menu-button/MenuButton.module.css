@@ -1,0 +1,20 @@
+.menuButton {
+  display: block;
+  position: absolute;
+  z-index: 4;
+  right: 0vh;
+  height: 7vh;
+  width: 7vh;
+  background-color: var(--tertiary-color);
+  background-image: url("../../../public/list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media (min-width: 767.999px) {
+  .menuButtonContainer {
+    display: none;
+  }
+}

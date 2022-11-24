@@ -1,0 +1,7 @@
+.logoContainer {
+  background-color: var(--main-color);
+  width: 220px;
+  height: 7vh;
+  padding: 0.7rem;
+  opacity: 1;
+}

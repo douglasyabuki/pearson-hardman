@@ -1,0 +1,63 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 3rem;
+}
+
+.cardImageContainer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cardAuthor {
+  padding-top: 1rem;
+  padding-left: 0.7rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.cardAuthorJob {
+  padding-left: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.cardContent {
+  padding: 0.7rem;
+}
+
+.secondContainer {
+  position: relative;
+  height: 45vh;
+}
+
+@media (min-width: 480.999px) {
+  .cardContainer {
+    margin: 0 auto;
+    max-width: 450px;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+@media (min-width: 1023.999px) {
+  .cardContainer {
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+  }
+
+  .cardImageContainer {
+    width: 20vh;
+    height: 20vh;
+    position: relative;
+  }
+
+  .cardAuthor,
+  .cardAuthorJob,
+  .cardContent {
+    padding-left: 1.5rem;
+  }
+}
