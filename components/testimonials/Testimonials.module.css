@@ -19,7 +19,10 @@
 }
 
 .secondContainer {
-  position: relative;
+  background-image: url("../../public/court.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 45vh;
 }
 

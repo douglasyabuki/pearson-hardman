@@ -48,10 +48,12 @@ img {
 }
 
 i {
-  position: absolute;
+  position: relative;
   background-color: var(--main-color);
   color: var(--primary-text-color);
   z-index: 5;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 1rem;
+  margin: 0 auto;
+  display: inline-block;
 }

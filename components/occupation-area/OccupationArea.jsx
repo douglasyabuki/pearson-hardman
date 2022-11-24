@@ -1,6 +1,5 @@
 import MoreButton from "../buttons/more-button/MoreButton";
 import styles from "./OccupationArea.module.css";
-import Image from "next/image";
 
 export default function OccupationArea() {
   return (
@@ -15,11 +14,6 @@ export default function OccupationArea() {
       </div>
       <div className={styles.imageContainer}>
         <i class="bi bi-people"></i>
-        <Image
-          src="/employees_banner.jpg"
-          alt="Pearson Hardman Lawyers"
-          layout="fill"
-        ></Image>
       </div>
     </div>
   );

@@ -30,6 +30,10 @@
 .imageContainer{
     height: 45vh;
     position: relative;
+    background-image: url("../../public/employees_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (min-width: 480.999px){
