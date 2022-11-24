@@ -1,6 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/home.module.css";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/navbar/Navbar";
 import OccupationArea from "../components/occupation-area/OccupationArea";
 import OtherServices from "../components/other-services/OtherServices";
 import About from "../components/about/About";
