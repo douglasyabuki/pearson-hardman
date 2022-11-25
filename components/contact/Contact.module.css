@@ -63,7 +63,7 @@
 
 @media (min-width: 1023.999px) {
   .sectionContainer {
-    height: 90vh;
+    height: 110vh;
     display: flex;
     flex-direction: row;
     margin-bottom: 3rem;
@@ -71,7 +71,7 @@
 
   .firstContainer {
     width: 50%;
-    height: 90vh;
+    height: 100%;
     background-image: url("/office.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,12 +80,12 @@
 
   .secondContainer {
     width: 50%;
-    height: 90vh;
+    height: 100%;
     align-items: center;
   }
 
   .form {
-    height: 90vh;
+    height: 100%;
     background-color: var(--tertiary-color);
     width: 400px;
     margin: 0 auto;

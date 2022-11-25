@@ -11,6 +11,22 @@ import Dots from "./dots/Dots";
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(false);
   const [isChosen, setChosen] = useState(0);
+  const [isSelected, setIsSelected] = useState({
+    firstDot: true,
+    secondDot: false,
+    thirdDot: false,
+  });
+
+  const handleClick = (chosenId) => {
+    setChosen(chosenId);
+    if (chosenId === 0) {
+      setIsSelected({ [0]: true, [1]: false, [2]: false });
+    } else if (chosenId === 1) {
+      setIsSelected({ [0]: false, [1]: true, [2]: false });
+    } else {
+      setIsSelected({ [0]: false, [1]: false, [2]: true });
+    }
+  };
 
   return (
     <div className={styles.headerContainer} id="header">
@@ -31,9 +47,9 @@ export default function Navbar() {
         <Square />
         <Banners bannerId={isChosen}></Banners>
         <div className={styles.dots}>
-          <Dots event={() => setChosen(0)} />
-          <Dots event={() => setChosen(1)} />
-          <Dots event={() => setChosen(2)} />
+          <Dots status={isSelected[0]} event={() => handleClick(0)} />
+          <Dots status={isSelected[1]} event={() => handleClick(1)} />
+          <Dots status={isSelected[2]} event={() => handleClick(2)} />
         </div>
       </div>
     </div>
